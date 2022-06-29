@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 export default function SignupForm() {
   const navigate = useNavigate();
 
-  const defaultAvatarUrl = "/assets/default_profile.png";
+  const defaultAvatarUrl = "/public/assets/default_profile.png";
 
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
