@@ -5,8 +5,7 @@ import { useNavigate } from "react-router-dom";
 export default function SignupForm() {
   const navigate = useNavigate();
 
-  const defaultAvatarUrl =
-    "https://www.civictheatre.ie/wp-content/uploads/2016/05/blank-profile-picture-973460_960_720.png";
+  const defaultAvatarUrl = "/assets/default_profile.png";
 
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
